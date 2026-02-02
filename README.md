@@ -1,4 +1,4 @@
-# Getting Started — JavaScript Pivot Table Component (Syncfusion EJ2)
+# 🚀 Getting Started — JavaScript Pivot Table Component (Syncfusion EJ2)
 
 [![License](https://img.shields.io/badge/license-SEE%20LICENSE%20IN%20license-blue.svg)](license)
 [![Last Updated](https://img.shields.io/github/last-commit/SyncfusionExamples/getting-started-with-the-javascript-pivot-table-component.svg)](https://github.com/SyncfusionExamples/getting-started-with-the-javascript-pivot-table-component/commits)
@@ -10,32 +10,32 @@
 
 ---
 
-## Table of Contents
+# 📚 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Minimal Example](#minimal-example)
-- [Project Structure](#project-structure)
-- [Customization & Notes](#customization--notes)
-- [Development & Tests](#development--tests)
-- [Contributing](#contributing)
-- [License & Support](#license--support)
+- [🔍 Overview](#-overview)
+- [✨ Features](#-features)
+- [🧭 Quick Start](#-quick-start)
+- [🧩 Minimal Example](#-minimal-example)
+- [🗂️ Project Structure](#-project-structure)
+- [⚙️ Customization & Notes](#-customization--notes)
+- [🧪 Development & Tests](#-development--tests)
+- [🤝 Contributing](#-contributing)
+- [📜 License & Support](#-license--support)
 
 ---
 
-## Overview
+## 🔍 Overview
 
 This repository is a minimal JavaScript quick-start that demonstrates how to embed Syncfusion EJ2 `PivotView` into a plain JavaScript/HTML page. It uses CDN-hosted EJ2 scripts and CSS for fast prototyping and shows how to enable `FieldList` and calculated values.
 
-## Features
+## ✨ Features
 
 - Browser-first example using CDN (`ej2.min.js`) and local sample data.
 - `PivotView` with `showFieldList` enabled and calculated fields support.
 - Self-contained demo: open `index.html` in a browser to run.
 - Lightweight example ideal for prototyping or learning the API.
 
-## Quick Start
+## 🧭 Quick Start
 
 Steps to run:
 
@@ -45,15 +45,7 @@ cd getting-started-with-the-javascript-pivot-table-component
 # Open index.html in your browser (double-click or use a static server)
 ```
 
-On a simple local server (recommended to avoid CORS issues):
-
-```bash
-# using Python 3
-python -m http.server 8000
-# then open http://localhost:8000
-```
-
-## Minimal Example
+## 🧩 Minimal Example
 
 HTML includes CDN CSS and script (example excerpts from `index.html`):
 
@@ -99,27 +91,27 @@ var pivotData = [
 ];
 ```
 
-## Project Structure
+## 🗂️ Project Structure
 
 - `index.html` — demo host with CDN links and CSS
 - `index.js` — PivotView initialization (plain JavaScript)
 - `es5-datasource.js` — sample dataset used by demo
 - `README.md` — this file
 
-## Customization & Notes
+## ⚙️ Customization & Notes
 
 - Change CDN version numbers in `index.html` to match your installed EJ2 version.
 - For production use, prefer installing specific packages (e.g., `@syncfusion/ej2-pivotview`) and bundling with Webpack/Rollup.
 - For large datasets use virtualization and server-side aggregation.
 
-## Development & Tests
+## 🧪 Development & Tests
 
 This repository is a static demo. To develop or test changes:
 
 - Open `index.html` in a browser or run a local HTTP server (see Quick Start).
 - For automated testing or packaging, add a build toolchain (Webpack) and test runner (Jasmine/Mocha) as needed.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome. Please fork the repository and open a pull request with a clear description of your change. Suggested guidelines:
 
@@ -129,15 +121,15 @@ Contributions are welcome. Please fork the repository and open a pull request wi
 
 Consider adding `CONTRIBUTING.md` and small issue/PR templates to help contributors.
 
-## License & Support
+## 📜 License & Support
 
-This project includes a `license` file in the repository root. For commercial support, consult Syncfusion's support channels.
+Essential JS 2 library is available under the Syncfusion Essential Studio program,  and can be licensed either under the Syncfusion Community License Program or the Syncfusion commercial license.
 
-## SEO & Metadata
+To be qualified for the Syncfusion Community License Program you must have a gross revenue of less than one (1) million U.S. dollars ($1,000,000.00 USD) per year and have less than five (5) developers in your organization, and agree to be bound by Syncfusion’s terms and conditions. 
 
-- Meta description (<=160 chars): "JavaScript quick-start: Syncfusion EJ2 PivotView demo (FieldList, GroupingBar, CalculatedField) — open `index.html` to run." 
-- Suggested topics: `javascript`, `syncfusion`, `ej2`, `pivotview`, `pivot-table`, `pivot-grid`, `field-list`, `example`.
+Customers who do not qualify for the community license can contact sales@syncfusion.com for commercial licensing options.
 
----
+Under no circumstances can you use this product without (1) either a Community License or a commercial license and (2) without agreeing and abiding by Syncfusion’s license containing all terms and conditions. 
 
-Last updated: 2026-02-02
+The Syncfusion license that contains the terms and conditions can be found at 
+https://www.syncfusion.com/content/downloads/syncfusion_license.pdf
