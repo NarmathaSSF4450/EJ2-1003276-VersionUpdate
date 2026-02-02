@@ -119,8 +119,6 @@ Contributions are welcome. Please fork the repository and open a pull request wi
 2. Keep examples small and focused (this is a demo repo)
 3. Update README or add sample files when adding features
 
-Consider adding `CONTRIBUTING.md` and small issue/PR templates to help contributors.
-
 ## 📜 License & Support
 
 Essential JS 2 library is available under the Syncfusion Essential Studio program,  and can be licensed either under the Syncfusion Community License Program or the Syncfusion commercial license.
